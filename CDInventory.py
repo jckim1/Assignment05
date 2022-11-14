@@ -1,5 +1,5 @@
 #------------------------------------------#
-# Title: CDInv.py
+# Title: CDInventory.py
 # Desc: Script to manage a list of dictionaries containing album information
 # Change Log: 11/13/2022, Added comments
 # Jesse Kim, 11/13/2022, Created File
@@ -29,7 +29,7 @@ while True:
         objFile = open(strFileName, 'r')
         for row in objFile:
             lstRow = row.strip().split(',')
-            drow = {'album': lstRow[0], 'artist': lstRow[1]}
+            drow = {'ID': lstRow[0], 'album': lstRow[1], 'artist': lstRow[2]}
             lstTbl.append(drow)
         objFile.close()
     elif strChoice == 'a': # two inputs to get album name and artist, add those to a 2d dictionary row then append to the list
