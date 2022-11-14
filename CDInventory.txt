@@ -1,0 +1,9 @@
+1,The Chronic,Dr. Dre
+2,Illmatic,Nas
+3,Aquemini,Outkast
+4,Reasonable Doubt,Jay-Z
+5,Doggystyle,Snoop Dogg
+6,Drugstore Cowboy,Berner
+7,Smell My Finger,Suga Free
+8,Low End Theory, A Tribe Called QuestID,Album,Artist
+
